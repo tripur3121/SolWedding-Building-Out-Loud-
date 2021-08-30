@@ -1,0 +1,27 @@
+.btn-sign{
+    float: centre;
+    height: 35px;
+    width: auto;
+    background-color: #FFC0CB;
+    transition-duration: 0.4s;
+    border: 2px solid #FFC0CB;
+    color: #fff;
+    text-align: center;
+    /* text-decoration-color: #fff; */
+    text-decoration: none;
+    border-radius: 4px;
+    /* text-decoration:#fff;
+	text-shadow:0px 1px 0px #fff; */
+    padding-top: 2.5px;
+    
+}
+
+.btn-sign:hover {
+    background: #7ec8e3;
+    border-color: #7ec8e3;
+    color: #fff;
+  }
+  .a{
+      color: #fff;
+  }
+  

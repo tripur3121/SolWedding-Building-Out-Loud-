@@ -1,0 +1,18 @@
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Tenali Ramakrishna', sans-serif; */
+    color: #444444;
+    scroll-behavior: smooth;
+  }
+
+  .nft-jug{
+    margin-top: 20px;
+  }
+
+.nft-cards{
+    margin: 70px 30px 30px 30px;
+}
+.nft-cards2{
+  margin: 30px 30px 30px 30px;
+}

@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.extra-oop{
+  margin: 20px;
+}
+.pricing1 .box {
+  padding: 20px;
+  background: #f7f7f7;
+  text-align: center;
+  border-radius: 8px;
+  position: initial;
+  overflow: auto;
+}
+
+.pricing1 .box h3 {
+  font-weight: 400;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+.pricing1 .box h4 {
+  font-size: 42px;
+  color: #7EC8E3;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing1 .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing1 .box h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing1 .box ul {
+  padding: 0;
+  list-style: none;
+  color: #2a2a2a;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing1 .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing1 .box ul i {
+  color: #7EC8E3;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing1 .box ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing1 .box .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.pricing1 .box .btn-buy {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 4px;
+  border: 2px solid #FFC0CB;
+  color: #FFC0CB;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing1 .box .btn-buy:hover {
+  background: #FFC0CB;
+  color: #fff;
+}
+
+.pricing1 .recommended {
+  background: #FFC0CB;
+}
+
+.pricing1 .recommended h3, .pricing1 .recommended h4, .pricing1 .recommended h4 span, .pricing1 .recommended ul, .pricing1 .recommended ul .na {
+  color: #fff;
+}
+
+.pricing1 .recommended .btn-buy {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.pricing1 .recommended .btn-buy:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #7EC8E3;
+}
