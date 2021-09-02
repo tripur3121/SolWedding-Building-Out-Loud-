@@ -1,7 +1,7 @@
 import Arweave from "arweave";
 import { JWKInterface } from "arweave/node/lib/wallet";
 import TestWeave from "testweave-sdk";
-import { ChatMessage } from "../solana/messages";
+import { SolWedding } from "../solana/program-rust";
 
 class ArweaveData {
   constructor(public message: string, public created_on: string) {}
