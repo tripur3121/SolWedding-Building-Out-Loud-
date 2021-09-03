@@ -1,49 +1,32 @@
-# Project Title
+# SolWedding
 
-Simple overview of use/purpose.
+A Blockchain based Wedding Registry Platform
 
-## Description
+## About the Project
 
-An in-depth paragraph about your project and overview of use.
+Registering for a wedding in India is an immensely complex and time-consuming process, to make it hassle-free, we simplified it by creating the decentralized  platform to solve many crucial problems like:
+Communal Limitation- In India we face various backlashes and problems when we try to marry someone from different caste or religion and even due to their gender as  people belonging to LGBTQ+ couldn't even register their wedding as it's not legal which creates inequality in the society, through our website we are giving them a platform to register their wedding.
+Paperwork - Filling forms and taking two witnesses to the court on a set date, along with supporting documents like the wedding invitation card and photos. It seems like a never-ending process but we make it easier just by adding your unique keys, you will get the certificate in your mails.
+NFT(Non-Fungible Tokens)- As a wedding gift or souvenir, you can gift NFTs to your loved ones i. e. transform digital artworks into unique verifiable digital assets that are tradable on the blockchain whose value will keep increasing over time.  
+Smart Lawyer- Will help you out regarding your wedding registry, preparing the affidavit, creating prenup statements, or any other concerns.
+Prenups- Prenups or Prenuptial Agreement is an extra service for those who want to manage their financial assets, liabilities, possessions, etc before getting married and further prevent them from getting into legal hassles that might occur in case of divorce, mutual separation, child custody, child maintenance, alimony, etc. 
 
-## Getting Started
+## Technologies We Used
 
-### Dependencies
+=> Solana
+=> Arweave
+=> Rust
+=> JavaScript
+=> TypeScript
+=> BootStrap5
+=> HTML5
+=> CSS3
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
-### Installing
+## Team Members
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+=> Janesh Balchandani
+=> Tejaswini Ojha
+=> Tripur Joshi
 
-### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
