@@ -13,6 +13,7 @@ Prenups- Prenups or Prenuptial Agreement is an extra service for those who want 
 ##### Technologies we used
 1. HTHL
 2. CSS
+3. BootStrap
 3. JavaScript
 4. Rust 
 5. Arweave
