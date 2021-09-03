@@ -14,9 +14,13 @@ Prenups- Prenups or Prenuptial Agreement is an extra service for those who want 
 ## Technologies We Used
 
 => Solana
+
 => Arweave
+
 => Rust
+
 => JavaScript
+
 => TypeScript
 => BootStrap5
 => HTML5
