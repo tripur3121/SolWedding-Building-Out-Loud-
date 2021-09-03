@@ -1,5 +1,5 @@
 # SolWedding
-Simple overview of our project.
+Register Your Wedding With Security of Blockchain.
 
 ### About our project
 Registering for a wedding in India is an immensely complex and time-consuming process, to make it hassle-free, we simplified it by creating the decentralized  platform to solve many crucial problems like:
@@ -21,4 +21,4 @@ Prenups- Prenups or Prenuptial Agreement is an extra service for those who want 
 #### Team Members
 1. Janesh Balchandani
 2. Tejaswini Ojha
-3. Tripur S Joshi
+3. Tripur Joshi
