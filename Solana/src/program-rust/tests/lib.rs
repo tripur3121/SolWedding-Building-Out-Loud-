@@ -69,28 +69,33 @@ async fn test_helloworld() {
         1
     );
 
-    // Greet again
-    let mut transaction = Transaction::new_with_payer(
-        &[Instruction::new_with_bincode(
-            program_id,
-            &[1], // ignored but makes the instruction unique in the slot
-            vec![AccountMeta::new(greeted_pubkey, false)],
-        )],
-        Some(&payer.pubkey()),
-    );
-    transaction.sign(&[&payer], recent_blockhash);
-    banks_client.process_transaction(transaction).await.unwrap();
+    // Rust Program
+    use std::io;
 
-    // Verify account has two greetings
-    let greeted_account = banks_client
-        .get_account(greeted_pubkey)
-        .await
-        .expect("get_account")
-        .expect("greeted_account not found");
-    assert_eq!(
-        GreetingAccount::try_from_slice(&greeted_account.data)
-            .unwrap()
-            .counter,
-        2
-    );
+fn main() {
+    let mut input = String::new();
+    println!("Would you like to register your wedding on Solana Blockchain? (y/n)");
+    match io::stdin().read_line(&mut input) {
+        Ok(y) => {
+            println!("{} ", input);
+            // println!("{}", input);
+        }
+        Err(error) => println!("error: {}", error),
+    }
+    let mut answer = String::new();
+    println!("Enter your ID user1, Please");
+    match io::stdin().read_line(&mut answer) {
+        Ok(y) => {
+            println!("user1:{} ", answer);
+        }
+        Err(error) => println!("error: {}", error),
+    }
+    let mut user = String::new();
+    println!("Enter your ID user2, Please");
+    match io::stdin().read_line(&mut user) {
+        Ok(y) => {
+            println!("user2:{} ", user);
+        }
+        Err(error) => println!("error: {}", error),
+    }
 }
