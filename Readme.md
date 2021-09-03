@@ -22,15 +22,20 @@ Prenups- Prenups or Prenuptial Agreement is an extra service for those who want 
 => JavaScript
 
 => TypeScript
+
 => BootStrap5
+
 => HTML5
+
 => CSS3
 
 
 ## Team Members
 
 => Janesh Balchandani
+
 => Tejaswini Ojha
+
 => Tripur Joshi
 
 
